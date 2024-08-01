@@ -24,7 +24,7 @@ QuickNotes API é uma API Node.js CRUD para um sistema de notas rápidas, utiliz
     ```
 2. Navegue até o diretório do projeto:
     ```bash
-    cd quicknotes-api
+    cd QuickNoteAPI
     ```
 3. Instale as dependências:
     ```bash
@@ -46,11 +46,9 @@ QuickNotes API é uma API Node.js CRUD para um sistema de notas rápidas, utiliz
 ## Uso
 
 ### Criar uma Nota
-
 ```bash
 POST /notes
 ```
-
 Exemplo de corpo da requisição:
 ```json
 {
@@ -66,7 +64,6 @@ Exemplo de corpo da requisição:
 ```bash
 GET /notes
 ```
-
 Retorna uma lista de todas as notas armazenadas.
 
 ### Atualizar uma Nota
@@ -74,9 +71,7 @@ Retorna uma lista de todas as notas armazenadas.
 ```bash
 PUT /notes/:id
 ```
-
 Envie um JSON no corpo da requisição com os campos a serem atualizados.
-
 Exemplo de corpo da requisição:
 ```json
 {
@@ -92,5 +87,4 @@ Exemplo de corpo da requisição:
 ```bash
 DELETE /notes/:id
 ```
-
 Deleta a nota correspondente ao id fornecido.
